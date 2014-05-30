@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=XSSAlert
+Comment=Penetration Testing tool
+Icon=xssalert.png
+Exec=xssalert
+Terminal=false
+Categories=Network;
+

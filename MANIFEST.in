@@ -1,0 +1,14 @@
+include INSTALL
+include LICENSE
+include Makefile
+include MANIFEST.in
+include PKG-INFO
+include README
+include uninstall.sh
+include xssalert
+include xssalert.desktop
+recursive-include XSSAlert *
+recursive-include XSSAlert/exlib *
+recursive-include XSSAlert/fuzzvector *
+recursive-include XSSAlert/ui *
+recursive-include XSSAlert/uipy *

