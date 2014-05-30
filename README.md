@@ -7,6 +7,7 @@ A Penetration testing tool for detecting cross side scripting holes present in w
 Project URL
 -------
 Old URL: http://sourceforge.net/projects/xssalert7
+
 New URL: https://github.com/arjunjain/xssalert
 
 License
